@@ -11,6 +11,8 @@
   },
   "devDependencies": {},
   "dependencies": {
+    "dotenv": "^8.2.0",
+    "find-config": "^1.0.0",
     "knex": "latest",
     "pg": "^7.12.1",
     "sqlite3": "latest",
