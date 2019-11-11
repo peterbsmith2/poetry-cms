@@ -1,0 +1,21 @@
+{
+  "connection": "default",
+  "collectionName": "poems",
+  "info": {
+    "name": "poem",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "lines": {
+      "collection": "line"
+    }
+  }
+}

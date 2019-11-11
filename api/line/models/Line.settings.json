@@ -1,0 +1,24 @@
+{
+  "connection": "default",
+  "collectionName": "lines",
+  "info": {
+    "name": "line",
+    "description": "line of a poem"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": [
+      "created_at",
+      "updated_at"
+    ],
+    "comment": ""
+  },
+  "attributes": {
+    "duration": {
+      "type": "integer"
+    },
+    "text": {
+      "type": "text"
+    }
+  }
+}
